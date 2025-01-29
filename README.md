@@ -1,13 +1,10 @@
 # Credit Card Fraud Detection
-
 A parallel computing and machine learning project for detecting fraudulent transactions in digital banking using Dask, Joblib, and Multiprocessing.
 
 ## 📋 Overview
-
 This project implements advanced fraud detection techniques using parallel computing frameworks to process large-scale banking transaction data. The implementation focuses on optimizing performance through various parallel processing methods while maintaining high detection accuracy.
 
 ### 🔑 Key Features
-
 - **Efficient Data Processing:** Optimized handling of large-scale transaction datasets
 - **Advanced Model Training:** Random Forest implementation with Optuna optimization
 - **Multiple Parallelization Methods:**
@@ -17,7 +14,6 @@ This project implements advanced fraud detection techniques using parallel compu
 - **Performance Analysis:** Comprehensive comparison of different parallel processing approaches
 
 ## 📂 Project Structure
-
 ```
 Credit Card Fraud Detection/
 │
@@ -27,9 +23,7 @@ Credit Card Fraud Detection/
 ```
 
 ## 🚀 Getting Started
-
 ### Prerequisites
-
 - Python 3.8+
 - Jupyter Notebook
 - Required libraries (install via pip):
@@ -38,7 +32,6 @@ Credit Card Fraud Detection/
   ```
 
 ### Installation
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/credit-card-fraud-detection.git
@@ -50,31 +43,26 @@ Credit Card Fraud Detection/
    jupyter notebook
    ```
 
-3. Open `Team3D.ipynb` and run the cells sequentially
+3. Open `Team3a.ipynb` and run the cells sequentially
 
 ## 📊 Performance Insights
-
 Our analysis revealed different performance characteristics for each parallel processing method:
-
 - **Multiprocessing:** Best for CPU-intensive tasks with minimal inter-process communication
 - **Joblib:** Good balance of ease-of-use and performance
 - **Dask:** Optimal for distributed computing with very large datasets
 
 ## 🔍 Dataset
-
-This project uses the Bank Account Fraud Dataset from NeurIPS 2022, which provides a comprehensive set of transaction data for fraud detection analysis.
+This project uses the Bank Account Fraud Dataset from NeurIPS 2022, available on Kaggle. The dataset provides a comprehensive set of transaction data specifically designed for fraud detection analysis and benchmarking. You can download the dataset from:
+[Bank Account Fraud Dataset (NeurIPS 2022)](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022)
 
 ## 📚 References
-
-- [Bank Account Fraud Dataset (NeurIPS 2022)](https://neurips.cc/Conferences/2022)
+- [Bank Account Fraud Dataset (NeurIPS 2022)](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022)
 - [Dask Documentation](https://docs.dask.org/)
 - [Joblib Documentation](https://joblib.readthedocs.io/)
 - [Python Multiprocessing](https://docs.python.org/3/library/multiprocessing.html)
 
 ## 👥 Contributors
-
 - Team 3 Members (HongDian Liu/ Xinyi Liu)
 
 ## 📄 License
-
 This project is licensed under the MIT License - see the LICENSE file for details
