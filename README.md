@@ -1,86 +1,39 @@
-Updated README - Credit Card Fraud Detection
+Credit Card Fraud Detection
 
 Project Overview
 
-This project focuses on detecting fraudulent transactions using parallel computing and machine learning. We leverage Dask, Joblib, and Multiprocessing to improve processing efficiency.
+This project focuses on detecting fraudulent transactions in digital banking using parallel computing and machine learning. By leveraging Dask, Joblib, and Multiprocessing, we enhance processing efficiency and improve fraud detection accuracy.
 	•	Dataset: Bank Account Fraud Dataset (NeurIPS 2022)
 
-Setup & Installation
-	1.	Install dependencies
+Project Files
 
-pip install -r requirements.txt
+📂 Credit Card Fraud Detection
+│── 📄 Final Report - Team 3.docx       # Detailed project report  
+│── 📄 Team3D.ipynb                     # Jupyter Notebook with implementation  
+│── 📂 data/                            # Dataset folder (if applicable)  
 
+How to Use
 
-	2.	Run Jupyter Notebook
+Run Jupyter Notebook
+	1.	Open a terminal and navigate to the project folder.
+	2.	Start Jupyter Notebook:
 
 jupyter notebook
 
-Open Team3D.ipynb and execute all cells.
 
-	3.	Run Python Script (if applicable)
-
-python fraud_detection.py
-
-
-
-Project Structure
-
-📂 Credit Card Fraud Detection
-│── 📄 Final Report - Team 3.docx  
-│── 📄 Team3D.ipynb  
-│── 📄 requirements.txt  
-│── 📄 fraud_detection.py  
-│── 📂 data (if applicable)  
-
-Run Parallel Processing
-
-1. Dask
-
-dask-scheduler  
-dask-worker localhost:8786  
-python fraud_detection.py  
-
-2. Joblib
-
-from joblib import Parallel, delayed  
-Parallel(n_jobs=-1)(delayed(my_function)(i) for i in range(100))
-
-3. Multiprocessing
-
-from multiprocessing import Pool  
-pool = Pool(processes=4)  
-result = pool.map(my_function, data_list)  
+	3.	Open Team3D.ipynb and run the cells sequentially.
 
 Key Features
-	•	Data Processing: Uses Dask for handling large datasets.
-	•	Model Training: Implements Random Forest + Optuna for hyperparameter tuning.
-	•	Parallelization: Compares Dask, Joblib, and Multiprocessing for speedup.
+	•	Data Processing: Efficient handling of large datasets.
+	•	Model Training: Implements Random Forest + Optuna for optimization.
+	•	Parallelization: Compares Dask, Joblib, and Multiprocessing for performance.
 	•	Performance Insights:
-	•	Multiprocessing: Fastest processing.
+	•	Multiprocessing: Fastest execution.
 	•	Joblib: Efficient but slightly slower.
-	•	Dask: Best for large-scale datasets.
+	•	Dask: Ideal for large-scale datasets.
 
 References
-	•	Dask Docs
+	•	Bank Account Fraud Dataset (NeurIPS 2022)
+	•	Dask Documentation
 	•	Joblib Guide
 	•	Python Multiprocessing
-
-For questions, contact HongDian Liu & Team 3 🚀
-
-Requirements.txt
-
-Here’s the requirements.txt file for installation:
-
-numpy  
-pandas  
-scikit-learn  
-matplotlib  
-seaborn  
-optuna  
-joblib  
-dask  
-jupyter  
-
-Save this as requirements.txt in your project folder and install dependencies using:
-
-pip install -r requirements.txt# Credit-Card-Fraud-Detection-
