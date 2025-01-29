@@ -73,7 +73,7 @@ This project uses the Bank Account Fraud Dataset from NeurIPS 2022, which provid
 
 ## 👥 Contributors
 
-- Team 3 Members (Add your team members' names/links here)
+- Team 3 Members (HongDian Liu/ Xinyi Liu)
 
 ## 📄 License
 
